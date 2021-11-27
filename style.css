@@ -1,0 +1,531 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: montserrat;
+}
+
+.first-div{
+    border: 1px solid black;
+    width: 50%;
+    box-shadow: 0 15px 15px 15px rgb(53, 77, 138)
+    
+    
+}
+.first-div span{
+    
+    font-size: 17px;
+    text-align: center;
+}
+.second-div{
+    border: 1px solid black;
+    width: 30%;
+    height: 59;
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 0 15px 15px 15px rgb(53, 77, 138)
+    }
+.third-div{
+    border: 1px solid black;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    font-size: 17px;
+    padding: 12px;
+    box-shadow: 0 15px 15px 15px rgb(53, 77, 138)
+}
+
+nav{
+  background-color: #6f94b1;
+  height: 80px;
+  width: 100%;
+  
+  
+
+}
+label.logo{
+  color:white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+  margin-left: 0px;
+}
+nav ul li a{
+  color:white;
+font-size: 17px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+transition: .5s;
+
+}
+
+.main-header{
+    display: flex;
+    margin: 0.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/*------------------slide css-------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position:relative;
+  margin: auto;
+  
+}
+
+img{
+  width: 100%;
+  height: 600px;
+  margin-top: 02%;
+}
+
+    
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(17, 17, 17);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+/*------------------facilities--------------------*/
+.facilities{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .facilities h2{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  p{
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .row{
+    display: flex;
+  /*flex-wrap: wrap;*/
+  padding: 4px 4px;
+  justify-content: space-between;
+    
+  }
+
+  .facilities-col{
+    flex-basis: 54%;
+    border-radius: 15px;
+    margin-bottom: 05%;
+    margin-left: 20px;
+    text-align: left;
+    flex: 50%;
+    text-align: center;
+     font-size: 1.25rem;
+     font-family: 'Baloo Tammudu 2', cursive;
+     padding: 0.55rem; 
+  }
+
+
+/*-------------------Diffrent-----------------------*/
+.Diffrent{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.Diffrent h2{
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 05%;
+}
+p{
+  color: #777;
+  font-size: 15px;
+  font-weight: 400;
+  /*line-height: 22px;*/
+  padding: 05px;
+}
+
+  .row1 {
+    margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-between;
+    }
+
+
+.Diffrent-col{
+  flex-basis: 31%;
+  background: #e6e4e5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  box-shadow: 0 15px 15px 15px rgb(82, 67, 119)
+  
+  
+}
+
+.hero-btn1{
+    /*display: inline-block;*/
+    text-decoration: none;
+    font-weight: 800%;
+    color: rgba(15, 15, 15, 0.952);
+    border: 2px solid rgb(12, 12, 12);
+    padding: 15px 35px;
+    font-size: 25px;
+    background: transparent;
+    /*position:relative;*/
+    cursor: pointer;
+
+  }
+  .hero-btn1:hover{
+    border: 2px solid #c2bebe;
+    background: #0c0c0c;
+    transition: 1s;
+    color: #edf0f1;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+.Package{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.row2{
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-between;
+}
+.Package-col{
+  flex-basis: 31%;
+  background: #e6e4e5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  font-family: 'Baloo Tammudu 2', cursive;
+  transition: 0.5s;
+  box-shadow: 0 15px 15px 15px rgb(53, 77, 138)
+}
+.btn{
+  margin-left: 550px;
+}
+.checked {
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 30px 10%;*/
+    background-color: #eee4e4;
+    
+  }
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .cta {
+    padding: 9px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  .menu {
+    display:none;
+  }
+  
+  .overlay {
+    height: 100vh;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #af2b2b;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+    background: #595a58;
+    
+   
+  }
+  
+  .overlay--active {
+    width: 40%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 26px;
+    display:block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 50px;
+    color: #0e0f0f;
+  }
+  .testimonials{
+    width:100%;
+    margin: auto;
+    background-color: #c2bebe;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+  
+    }
+  .testimonials-col{
+     border-radius: 10px;
+      margin-bottom: 2%;
+      background: #bbb9b9;
+      cursor: pointer;
+      display: flex;
+      text-align: center;
+       font-size: 1.25rem;
+       font-family: 'Baloo Tammudu 2', cursive;
+       padding: 0.55rem; 
+
+  }
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(15, 15, 15, 0.952);
+    border: 1px solid rgb(12, 12, 12);
+    padding: 6px 25px;
+    font-size: 15px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+  }
+  .hero-btn:hover{
+    border: 1px solid #c2bebe;
+    background: #0c0c0c;
+    transition: 1s;
+    color: #edf0f1;
+
+  }
+  .footer{
+  padding: 1px;
+   width: 100%;
+   background-color: rgb(78, 76, 76);
+   color: white;
+  text-align: center;
+  padding: 10px 0;
+  }
+  
+  .icon .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+  }
+  .fa-heart-o{
+    color: #f44336;
+  }
+  
+  
+
+  
+
+
+
+  
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    
+    }
+   
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+     
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+}
